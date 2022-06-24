@@ -1,0 +1,42 @@
+.Sun, .Night, .Rainy, .Cloudy, .Partly, .Snowy{
+    display: none;
+}
+body{
+    background-color: skyblue;
+    color: darkred;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.location{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+
+    
+}
+.condition{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 57, 96);
+}
+.temp{text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 9, 9);
+}
+.humidity{text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 111, 188);
+}
+.wind{text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 183, 0);
+}
+.Image{
+    position: relative;
+    left: 45%;
+    /* transform: translate(-50%, 0); */
+}
